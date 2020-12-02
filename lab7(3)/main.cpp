@@ -36,7 +36,7 @@ int main()
     }
     std::cout << "\n";
     i1 = the_list1.front();
-    the_list1.find(2);
+    the_list1.find(5);
     cout << "double:" << endl;
     the_list2.add_front(1.4);
     the_list2.add_front(2.9);
@@ -66,7 +66,7 @@ int main()
     }
     std::cout << "\n";
     i2 = the_list2.front();
-    the_list2.find(2.9);
+    the_list2.find(21);
     cout << "char:" << endl;
     the_list3.add_front('a');
     the_list3.add_front('b');
@@ -96,7 +96,7 @@ int main()
     }
     std::cout << "\n";
     i3 = the_list3.front();
-    the_list3.find('n');
+    the_list3.find(21);
     cout << "student:" << endl;
     class cstudent a("kajdf", 2), b("sdj", 5), c("ahs", 9), d("axa", 3), f("eh", 10);
     the_list4.add_front(a);
@@ -127,6 +127,6 @@ int main()
     }
     cout << endl;
     i4 = the_list4.front();
-    the_list4.find(c);
+    the_list4.find(33);
     return 0;
 }

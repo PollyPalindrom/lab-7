@@ -139,7 +139,7 @@ public:
     }
 
 
-    void find(T obj) {
+    void find(int id) {
         try {
             if (size == 0) {
                 throw 3;
@@ -153,7 +153,7 @@ public:
         node* temp = head;
         int fl = 0;
         while (temp != nullptr) {
-            if (temp->info == obj) {
+            if (temp->key.id == id) {
                 cout << "FIND: " << temp->info << "   key: " << temp->key;
                 fl = 1;
             }
